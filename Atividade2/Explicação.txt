@@ -1,0 +1,3 @@
+As expressões regulares são utilizadas para definir padrões que permitem reconhecer tokens, que são a base de funcionamento de um analisador léxico. 
+No exemplo testado, a regex foi capaz de identificar corretamente identificadores, operadores e números na expressão “position = initial + rate * 60”. 
+Isso demonstra como um scanner pode dividir a entrada em unidades menores antes da análise sintática.
