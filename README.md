@@ -52,3 +52,11 @@ Ao longo deste laboratório, foi possível compreender na prática o funcionamen
 Além disso, atividades como manipulação de texto com regex e comparação com o tokenizer da OpenAI mostraram diferenças importantes entre abordagens formais (baseadas em gramáticas) e modelos estatísticos (como BPE), ampliando a visão sobre processamento de linguagem.
 
 Por fim, a construção de um analisador léxico para textos em português consolidou o entendimento teórico e prático, demonstrando como conceitos fundamentais de compiladores podem ser aplicados em diferentes contextos computacionais.
+
+## 1. Identificação
+* *Faculdade:* PUC-SP
+* *Curso:* Ciencia da computação
+* *Disciplina:* Compiladores
+* *LAB:* Atividade 7 – Tokenizar livro em português
+* *Equipe (Dupla):* * Felipe Gilaverte
+  * Murilo Giroto
