@@ -1,0 +1,3 @@
+Expressões regulares permitem manipular e transformar dados rapidamente, como remover comentários e ajustar arquivos CSV.
+Apesar de eficientes, possuem limitações por não entenderem o contexto completo do código.
+Assim, simulam de forma simplificada o funcionamento de um scanner, que é mais preciso e robusto.

@@ -1,0 +1,3 @@
+O uso de expressões regulares em Python e Java permitiu identificar padrões como e-mails e tokens de forma automatizada.
+Em ambos os casos, a implementação simula o funcionamento de um scanner léxico baseado em autômatos finitos.
+Apesar das limitações de contexto, as duas abordagens são eficientes para reconhecimento de padrões em texto.
