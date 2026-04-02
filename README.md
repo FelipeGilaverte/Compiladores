@@ -8,6 +8,7 @@ Atividade2
 As expressões regulares são utilizadas para definir padrões que permitem reconhecer tokens, que são a base de funcionamento de um analisador léxico. 
 No exemplo testado, a regex foi capaz de identificar corretamente identificadores, operadores e números na expressão “position = initial + rate * 60”. 
 Isso demonstra como um scanner pode dividir a entrada em unidades menores antes da análise sintática.
+
 Atividade3
 <img width="1919" height="1000" alt="image" src="https://github.com/user-attachments/assets/35ed6d4e-5443-4f70-b9b9-cfb86385111f" />
 <img width="1919" height="1000" alt="image" src="https://github.com/user-attachments/assets/fecf7d97-4d7f-4a4a-b187-1acb256b6c81" />
@@ -17,6 +18,7 @@ Atividade3
 Expressões regulares permitem manipular e transformar dados rapidamente, como remover comentários e ajustar arquivos CSV.
 Apesar de eficientes, possuem limitações por não entenderem o contexto completo do código.
 Assim, simulam de forma simplificada o funcionamento de um scanner, que é mais preciso e robusto.
+
 Atividade4
 <img width="1903" height="885" alt="image" src="https://github.com/user-attachments/assets/40674316-f0cd-48ac-b840-0e1130abf495" />
 <img width="1123" height="580" alt="image" src="https://github.com/user-attachments/assets/e6374180-46d4-431a-9eb8-6e673c764b94" />
@@ -24,6 +26,7 @@ Atividade4
 O uso de expressões regulares em Python e Java permitiu identificar padrões como e-mails e tokens de forma automatizada.
 Em ambos os casos, a implementação simula o funcionamento de um scanner léxico baseado em autômatos finitos.
 Apesar das limitações de contexto, as duas abordagens são eficientes para reconhecimento de padrões em texto.
+
 Atividade5
 <img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/f150411f-2f23-44bc-a15f-b4a46836f9ae" />
 <img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/bc0ec5f6-e7e7-4091-964c-89633f13546e" />
@@ -31,8 +34,16 @@ Atividade5
 <img width="1919" height="1033" alt="image" src="https://github.com/user-attachments/assets/80fa8ba0-e00f-4a43-a845-cb4980ae5095" />
 
 Atividade6
+
 O tokenizer da OpenAI divide palavras como “position” em partes como “pos” e “ition” porque utiliza BPE (Byte Pair Encoding), um método baseado em frequência de padrões no texto, e não em regras gramaticais. Já os tokens léxicos de compiladores seguem regras formais da linguagem (gramática regular), garantindo que cada token tenha um significado preciso. Enquanto o scanner de um compilador precisa ser rigoroso para não comprometer a execução do programa, o tokenizer de LLM pode ser mais flexível, pois seu objetivo é apenas representar o texto de forma eficiente para previsão probabilística.
+
 Atividade7
+
+A atividade consistiu no desenvolvimento de um analisador léxico, ou scanner, que é a primeira fase de um compilador. O objetivo dessa etapa é ler um texto em formato bruto (uma sequência de caracteres de um livro) e agrupá-lo em unidades lógicas chamadas de tokens. Nesta fase, o programa não tenta entender o significado ou a classe gramatical das palavras (como verbo ou substantivo), mas apenas separa o texto em blocos válidos.
+Para realizar essa separação, a lógica central do scanner foi construída com base em Expressões Regulares (RegEx). A expressão regular atua como um conjunto de regras estritas que define o que pertence e o que não pertence à "linguagem" que estamos analisando.
+<img width="1003" height="640" alt="Captura de tela 2026-04-02 184728" src="https://github.com/user-attachments/assets/c43bfa18-fbc0-478a-a1b3-8b0ef909a9ce" />
+<img width="709" height="631" alt="Captura de tela 2026-04-02 184709" src="https://github.com/user-attachments/assets/bdec1d2e-d4c0-4e55-a636-e0a661a2ee60" />
+<img width="1003" height="711" alt="Captura de tela 2026-04-02 184811" src="https://github.com/user-attachments/assets/c0b97db2-74f1-4d6a-b732-5378b34888cd" />
 
 
 Conclusão:
